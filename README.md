@@ -14,7 +14,7 @@ At this section you need to configure following fields.
 
 # Webform custom data mapping
 Custom data is mapped in YML format.
-[Webform custom data example](https://github.com/bullseye-digital/mparticle_submission/raw/master/custom_data.jpg)
+![Webform custom data example](https://github.com/bullseye-digital/mparticle_submission/raw/master/custom_data.jpg)
 
 # Custom module usage
 * Call service statically or use Dependency injection
