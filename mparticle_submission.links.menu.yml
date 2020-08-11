@@ -1,0 +1,6 @@
+mparticle_submission.mparticle_submission_config_form:
+  title: 'Mparticle Submission Configuration Form'
+  route_name: mparticle_submission.mparticle_submission_config_form
+  description: 'Configure Mparticle submission settings'
+  parent: system.admin_config_system
+  weight: 99

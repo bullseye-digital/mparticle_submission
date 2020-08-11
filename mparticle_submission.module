@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains mparticle_submission.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function mparticle_submission_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the mparticle_submission module.
+    case 'help.page.mparticle_submission':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Submit data to Mparticle from module and webform') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function mparticle_submission_theme() {
+  return [
+    'webform_handler_webform_mparticle_submission_summary' => [
+      'variables' => ['settings' => NULL, 'handler' => NULL],
+      'template' => 'webform-mparticle-submission-summary',
+    ],
+  ];
+}

@@ -1,0 +1,6 @@
+<b>{{ 'API Endpoint:'|t }}</b> {{ settings.api_endpoint }}<br />
+<b>{{ 'API Key:'|t }}</b> {{ settings.api_key }}<br />
+<b>{{ 'API Secret:'|t }}</b> {{ settings.api_secret }}<br />
+<b>{{ 'Event Name:'|t }}</b> {{ settings.event_name }}<br />
+<b>{{ 'Environment:'|t }}</b> {{ settings.environment }}<br />
+{% if settings.debug %}<b class="color-error">{{ 'Debugging is enabled'|t }}</b><br />{% endif %}

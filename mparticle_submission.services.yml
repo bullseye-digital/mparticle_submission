@@ -1,0 +1,4 @@
+services:
+  mparticle_submission.mparticle_submission_service:
+    class: Drupal\mparticle_submission\MparticleSubmissionService
+    arguments: ['@config.factory', '@http_client', '@logger.factory']

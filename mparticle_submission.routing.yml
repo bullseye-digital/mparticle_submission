@@ -1,0 +1,9 @@
+mparticle_submission.mparticle_submission_config_form:
+  path: '/admin/config/mparticle_submission/mparticlesubmissionconfig'
+  defaults:
+    _form: '\Drupal\mparticle_submission\Form\MparticleSubmissionConfigForm'
+    _title: 'Mparticle Submission Config Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
