@@ -1,7 +1,7 @@
 name: 'Mparticle Submission'
 type: module
 description: 'Submit data to Mparticle from module and webform'
-core: 8.x
+core_version_requirement: ^8 || ^9
 package: 'Ogilvy'
 dependencies:
   - webform
